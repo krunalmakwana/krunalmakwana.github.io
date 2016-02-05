@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Mammoth</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+ 
+  <script type='text/javascript' src='../jquery.particleground.js'></script>
+  <script type='text/javascript' src='js/demo.js'></script>
+  
+ 
+
+    
+    
+</head>
+
+<body>
+
+<div id="particles">
+  <div id="intro">
+    <h1>The Mammoth is comming.</h1>
+    <p><span class="subtitle">working hard to improve and ready to launch after</span></p>
+  </div>
+</div>
+
+
+ <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script type="text/javascript">
+  $('#countdown').countdown('2016/03/03', function(event) {
+    $(this).html(event.strftime('%w weeks %d days <br /> %H:%M:%S'));
+  });
+</script>
+</body>
+</html>
